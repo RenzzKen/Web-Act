@@ -1,0 +1,179 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: auto;
+    padding: 20px 50px;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100% 100%;
+}
+li{
+    font-size: larger;
+    float: right;
+    list-style-type: none;
+    margin: 1px;
+    margin-right: 100px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 2px;
+    border-style: groove;
+    border-radius: 40px;
+    box-shadow: 5px 8px rgb(121, 127, 177);
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+.active{
+    text-decoration: none;
+    font-size: larger;
+    float: right;
+    margin-left: 150px;
+    margin: 1px;
+    margin-right: 230px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 2px;
+    border-style: groove;
+    border-radius: 40px;
+    box-shadow: 5px 8px rgb(121, 127, 177); 
+}
+.box{
+    background: linear-gradient(50deg, dodgerblue, rgb(255, 255, 255), rgb(240, 135, 16));
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 230px;
+    margin-left: 230px;
+    margin-top: 35px;
+    border-style: solid;
+    padding-bottom: 20px;
+    position: relative;
+}
+.box2{
+    background: linear-gradient(50deg, dodgerblue, rgb(255, 255, 255), rgb(240, 135, 16));
+    border-radius: 10px;
+    padding-bottom: auto;
+    width: 705px;
+    height:500px;
+    margin-right: 230px;
+    margin-left: 230px;
+    margin-top: 35px;
+    border-style: solid;
+    padding-bottom: 20px;
+    text-align: left;
+}
+h2{
+    text-align: center;
+    margin-left: 4cm;
+    background-color: rgb(12, 12, 11);
+    border-radius: 5px;
+    color: ivory;
+    height: 5%;
+    max-width: 25%;
+    align-content: center;
+}
+option {
+    font-size: 18px;
+}
+#name, #email, 
+#course, #date{
+    width: 50%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 3px solid #0d0e0d;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.submit {
+    padding: 10px 20px;
+    background-color: rgb(19, 0, 128);
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    max-width: 3cm;
+    margin: 43px 242px;
+    float: left;
+}
+.submit:hover {
+    box-shadow: 0 0 5px 3px rgba(13, 15, 15, 0.5);
+}
+.container1 {
+    background-color: rgb(192, 192, 192);
+    max-width: 1%;
+    padding-right: 50%;
+    margin-left: 334px;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+.loading {
+    background-color: #0f12db;
+    color: white;
+    padding-right: 10%;
+    padding-left: 200px;
+    border-radius: 15px;
+}
+.bar {
+    width: 40px;
+    height: 40px;
+}
+h6{
+    float: right;
+    margin-top: 90px;
+    font-size: small;
+}
+input[type="number1"],
+input[type="radio"],
+input[type="checkbox"],
+input[type="file"],
+textarea{
+    margin-left: 110px;
+}
+label {
+    margin-left: 110px;
+}
+textarea{
+    margin-left: 110px;
+}
+img{
+    width: 50px;
+    margin-top: 50px;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+footer{
+    background-color: rgb(32, 117, 196);
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border: solid black;
+}
+
+
+
+
+
+
+
+
+

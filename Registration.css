@@ -1,0 +1,168 @@
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: auto;
+    padding: 20px 50px;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100% 100%;
+}
+li{
+    font-size: larger;
+    float: right;
+    list-style-type: none;
+    margin: 1px;
+    margin-right: 100px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 2px;
+    border-style: groove;
+    border-radius: 40px;
+    box-shadow: 5px 8px rgb(121, 127, 177); 
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+.active{
+    text-decoration: none;
+    font-size: larger;
+    float: right;
+    margin-left: 150px;
+    margin: 1px;
+    margin-right: 230px;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    display: inline-block;
+    padding: 2px;
+    border-style: groove;
+    border-radius: 40px;
+    box-shadow: 5px 8px rgb(121, 127, 177); 
+}
+    
+div.Registration{
+    background: linear-gradient(50deg, dodgerblue, rgb(128, 140, 189), rgb(55, 182, 233));
+    border-radius: 10px;
+    text-align: center;
+    width: 20cm;
+    height:fit-content;
+    margin-left: 230px;
+    margin-top: 35px;
+    border-style: solid;
+    padding-bottom: 20px;
+}
+h3{
+    text-align: left;
+    margin-left: 3cm;
+    font-size: 23px;
+    background-color: rgb(12, 12, 11);
+    border-radius: 5px;
+    color: ivory;
+    height: 5%;
+    max-width: 25%;
+    text-align: center;
+}
+
+#Month, #Day, #Year, #Gender, #Course{
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 10px;
+    border: 2px solid #0d0e0d;
+    border-radius: 3px;
+}
+#First_Name, #Middle_Name, #Last_Name{
+    width: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #0d0e0d;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 5cm;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+ #Street, #line, #City, 
+ #Province, #Postal, #email,
+ #Mnumber, #Pnumber, #Wnumber,
+ #Company{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #0d0e0d;
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 15px;
+    border: 3px solid black;
+    width: 15cm;
+
+}
+.address{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+form input[type='submit']:hover {
+    color: #FFFFFF;
+    background: #f1bdb5;
+  }
+button{
+    padding: 10px 20px;
+    background-color: green;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 3cm;
+    display: block;
+    margin-left: 8.5cm;
+    
+  }
+button:hover{
+    box-shadow: 0 0 5px 3px rgba(13, 15, 15, 0.5);
+}
+img{
+    width: 50px;
+    margin-top: 50px;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+footer{
+    background-color: rgb(32, 117, 196);
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    border: solid black;
+}
+
+h6{
+    float: right;
+    margin-top: 90px;
+    font-size: small;
+}
+
+
+
+
+
+
+
